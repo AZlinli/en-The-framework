@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LYEMailCell">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Want to Save up to 50%?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrh-sm-YAR">
+                        <rect key="frame" x="16" y="19" width="202" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh6-nc-bOk">
+                        <rect key="frame" x="296" y="0.0" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="6ZR-ii-yss"/>
+                            <constraint firstAttribute="width" constant="40" id="M5B-Vd-ix1"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" image="chacha"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just enter your email below to keep up with all the latest deals and discounts！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l16-E8-gcN">
+                        <rect key="frame" x="16" y="49" width="304" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zps-9Y-Lx6">
+                        <rect key="frame" x="16" y="95" width="304" height="36"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20T-FI-NAe">
+                                <rect key="frame" x="205" y="0.0" width="99" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="tpB-nD-6OQ"/>
+                                </constraints>
+                                <state key="normal" title="Subscribe">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SKh-fK-6Lt">
+                                <rect key="frame" x="0.0" y="0.0" width="205" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.098039215690000001" green="0.6588235294" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215686274508" green="0.6588235294117647" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="20T-FI-NAe" secondAttribute="trailing" id="0Ln-HZ-0RU"/>
+                            <constraint firstItem="SKh-fK-6Lt" firstAttribute="top" secondItem="Zps-9Y-Lx6" secondAttribute="top" id="2cP-un-Gru"/>
+                            <constraint firstItem="20T-FI-NAe" firstAttribute="leading" secondItem="SKh-fK-6Lt" secondAttribute="trailing" id="C1C-sY-gvV"/>
+                            <constraint firstAttribute="bottom" secondItem="20T-FI-NAe" secondAttribute="bottom" id="PWR-YE-kji"/>
+                            <constraint firstAttribute="height" constant="36" id="T49-sC-UQU"/>
+                            <constraint firstItem="20T-FI-NAe" firstAttribute="top" secondItem="Zps-9Y-Lx6" secondAttribute="top" id="ttO-Wd-mKC"/>
+                            <constraint firstAttribute="bottom" secondItem="SKh-fK-6Lt" secondAttribute="bottom" id="ueU-rS-EJ5"/>
+                            <constraint firstItem="SKh-fK-6Lt" firstAttribute="leading" secondItem="Zps-9Y-Lx6" secondAttribute="leading" id="y1x-5D-gYr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="boardColor">
+                                <color key="value" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jrh-sm-YAR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="19" id="0vN-XA-7xr"/>
+                <constraint firstAttribute="trailing" secondItem="gh6-nc-bOk" secondAttribute="trailing" id="2HG-ig-xPq"/>
+                <constraint firstAttribute="trailing" secondItem="l16-E8-gcN" secondAttribute="trailing" constant="16" id="5co-sO-oAe"/>
+                <constraint firstItem="l16-E8-gcN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="KPo-J0-2vN"/>
+                <constraint firstItem="jrh-sm-YAR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="OAA-Rx-nUh"/>
+                <constraint firstItem="Zps-9Y-Lx6" firstAttribute="top" secondItem="l16-E8-gcN" secondAttribute="bottom" constant="10" id="PC1-zt-qaP"/>
+                <constraint firstItem="gh6-nc-bOk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RSu-id-gib"/>
+                <constraint firstAttribute="trailing" secondItem="Zps-9Y-Lx6" secondAttribute="trailing" constant="16" id="URe-pG-c6h"/>
+                <constraint firstItem="Zps-9Y-Lx6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="e34-Ix-YKv"/>
+                <constraint firstItem="l16-E8-gcN" firstAttribute="top" secondItem="jrh-sm-YAR" secondAttribute="bottom" constant="9" id="iyo-WM-adH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="336" height="170"/>
+            <connections>
+                <outlet property="backView" destination="Zps-9Y-Lx6" id="j1F-ce-e5d"/>
+                <outlet property="bigTitle" destination="jrh-sm-YAR" id="PPU-fH-EkO"/>
+                <outlet property="closeBtn" destination="gh6-nc-bOk" id="1pg-p2-34b"/>
+                <outlet property="emailTxd" destination="SKh-fK-6Lt" id="q3s-dc-DLL"/>
+                <outlet property="subBtn" destination="20T-FI-NAe" id="wmG-nh-yZz"/>
+                <outlet property="subTitle" destination="l16-E8-gcN" id="d3j-FI-4gB"/>
+            </connections>
+            <point key="canvasLocation" x="-213" y="146"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chacha" width="14" height="14"/>
+    </resources>
+</document>

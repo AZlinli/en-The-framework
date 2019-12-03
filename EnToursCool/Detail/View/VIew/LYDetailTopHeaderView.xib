@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYDetailTopHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ms-is-khV">
+                    <rect key="frame" x="28" y="436" width="67" height="34"/>
+                    <state key="normal" title="Itinerary">
+                        <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kI-bq-Uax">
+                    <rect key="frame" x="172.5" y="436" width="69" height="34"/>
+                    <state key="normal" title="Expense">
+                        <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoT-io-V0A">
+                    <rect key="frame" x="277" y="436" width="109" height="34"/>
+                    <state key="normal" title="Special notes">
+                        <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dI-92-6zT">
+                    <rect key="frame" x="0.0" y="895" width="414" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="GGS-8u-Drh"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ww0-Iz-r73">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Q9S-Sj-fns"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7kI-bq-Uax" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="0rr-wu-QXe"/>
+                <constraint firstAttribute="bottom" secondItem="6dI-92-6zT" secondAttribute="bottom" id="1rh-3G-My7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6dI-92-6zT" secondAttribute="trailing" id="81g-A6-ZGc"/>
+                <constraint firstItem="eoT-io-V0A" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="GIe-9G-qwj"/>
+                <constraint firstItem="ww0-Iz-r73" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="N5G-ng-Htt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eoT-io-V0A" secondAttribute="trailing" constant="28" id="OF8-OC-5nJ"/>
+                <constraint firstItem="7kI-bq-Uax" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="co0-1N-vHh"/>
+                <constraint firstItem="6dI-92-6zT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="d7h-DA-8kw"/>
+                <constraint firstItem="4ms-is-khV" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="dIr-K4-8OR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ww0-Iz-r73" secondAttribute="trailing" id="dmM-D0-E0e"/>
+                <constraint firstItem="ww0-Iz-r73" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jH0-aS-xu5"/>
+                <constraint firstItem="4ms-is-khV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="knh-CU-xjL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="expenseButton" destination="7kI-bq-Uax" id="cbP-DK-g8l"/>
+                <outlet property="itineraryButton" destination="4ms-is-khV" id="5N5-hg-rKH"/>
+                <outlet property="lineView" destination="6dI-92-6zT" id="qrc-oU-z1k"/>
+                <outlet property="specialNotesButton" destination="eoT-io-V0A" id="3ie-mb-HyM"/>
+                <outlet property="topLineView" destination="ww0-Iz-r73" id="Fob-Zd-nxC"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="135"/>
+        </view>
+    </objects>
+</document>

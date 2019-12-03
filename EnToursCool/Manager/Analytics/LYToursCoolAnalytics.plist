@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PageName</key>
+	<dict>
+		<key>LYModifyUserInfoTableViewController</key>
+		<string>ModifyUserInfoPage</string>
+		<key>LYOrderDetailViewController</key>
+		<string>OrderDetailPage</string>
+		<key>LYOrderListViewController</key>
+		<string>OrderListPage</string>
+		<key>LYMineCollectViewController</key>
+		<string>MineCollectPage</string>
+		<key>LYMineViewController</key>
+		<string>MinePage</string>
+		<key>LYUserModifyPWDViewController</key>
+		<string>ModifyPWDPage</string>
+		<key>LYReconstructionRegisterViewController</key>
+		<string>RetrievePasswordPage</string>
+		<key>LYReconstructionRegisterViewController1</key>
+		<string>RegisterPage</string>
+		<key>LYMineIntegralViewController</key>
+		<string>IntegralPage</string>
+		<key>LYPayStateViewController</key>
+		<string>PayStatePage</string>
+		<key>LYPayTypeViewController</key>
+		<string>PayTypePage</string>
+		<key>LYDestinationViewController</key>
+		<string>DestinationPage</string>
+		<key>LYProductListViewController</key>
+		<string>ProductListPage</string>
+		<key>LYSearchViewController</key>
+		<string>SearchPage</string>
+		<key>LYOrderAffirmViewController</key>
+		<string>SubmitOrderPage</string>
+		<key>LYSelectDateViewController</key>
+		<string>CalendarPage</string>
+		<key>LYLineDetailsViewController</key>
+		<string>ProductDetailPage</string>
+		<key>LYHomeViewController</key>
+		<string>HomePage</string>
+		<key>LYReconstructionLoginViewController</key>
+		<string>LoginAccountPage</string>
+		<key>LYReconstructionLoginSMSViewController</key>
+		<string>LoginSMSPage</string>
+	</dict>
+</dict>
+</plist>

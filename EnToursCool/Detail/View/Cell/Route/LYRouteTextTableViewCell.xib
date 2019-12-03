@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="215" id="KGk-i7-Jjw" customClass="LYRouteTextTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="215"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DJc-ff-lRC">
+                        <rect key="frame" x="32.5" y="27" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="jHB-i6-nMJ"/>
+                            <constraint firstAttribute="width" constant="10" id="zn7-TO-aeO"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gag-rS-8Mb">
+                        <rect key="frame" x="37" y="37" width="1" height="178"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="bpA-D5-ba9"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmf-or-7a4">
+                        <rect key="frame" x="58" y="20" width="238" height="188"/>
+                        <string key="text">Take a pleasant flight to Denver, the State Capital of Colorado! Please meet our friendly tour guide at Baggage Claim #6 located inside the East Terminal by 1:30PM. Drive to the State House of Colorado</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DJc-ff-lRC" firstAttribute="centerX" secondItem="gag-rS-8Mb" secondAttribute="centerX" id="94m-aA-NYo"/>
+                    <constraint firstItem="DJc-ff-lRC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="27" id="BSh-5Z-idk"/>
+                    <constraint firstItem="gag-rS-8Mb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="37" id="Cvm-Sn-mqD"/>
+                    <constraint firstAttribute="bottom" secondItem="Cmf-or-7a4" secondAttribute="bottom" constant="7" id="Jdo-dn-xqq"/>
+                    <constraint firstItem="gag-rS-8Mb" firstAttribute="top" secondItem="DJc-ff-lRC" secondAttribute="bottom" id="RfS-BK-ggQ"/>
+                    <constraint firstItem="Cmf-or-7a4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="ZAE-Pa-c3X"/>
+                    <constraint firstAttribute="bottom" secondItem="gag-rS-8Mb" secondAttribute="bottom" id="g8j-Nf-sDA"/>
+                    <constraint firstAttribute="trailing" secondItem="Cmf-or-7a4" secondAttribute="trailing" constant="39" id="jnw-Ce-TBx"/>
+                    <constraint firstItem="Cmf-or-7a4" firstAttribute="leading" secondItem="gag-rS-8Mb" secondAttribute="trailing" constant="20" id="m8q-59-gsO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="dotImageView" destination="DJc-ff-lRC" id="tw7-cb-wky"/>
+                <outlet property="lineView" destination="gag-rS-8Mb" id="YFp-vy-BDX"/>
+                <outlet property="textContentLabel" destination="Cmf-or-7a4" id="fnI-pn-iD8"/>
+            </connections>
+            <point key="canvasLocation" x="90.579710144927546" y="70.647321428571431"/>
+        </tableViewCell>
+    </objects>
+</document>

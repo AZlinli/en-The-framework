@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="LYShareTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail_facebook" translatesAutoresizingMaskIntoConstraints="NO" id="Gp7-37-aCp">
+                        <rect key="frame" x="26" y="19.5" width="26" height="26"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail_sep_line" translatesAutoresizingMaskIntoConstraints="NO" id="Gq4-LM-T7l">
+                        <rect key="frame" x="18" y="1" width="330" height="0.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIU-hH-6wL">
+                        <rect key="frame" x="62" y="22" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gq4-LM-T7l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="7Vz-Zv-nn8"/>
+                    <constraint firstItem="Gp7-37-aCp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="8iO-bz-klV"/>
+                    <constraint firstAttribute="trailing" secondItem="Gq4-LM-T7l" secondAttribute="trailing" constant="18" id="bfN-L5-JwZ"/>
+                    <constraint firstItem="uIU-hH-6wL" firstAttribute="leading" secondItem="Gp7-37-aCp" secondAttribute="trailing" constant="10" id="dT9-98-yfo"/>
+                    <constraint firstItem="Gp7-37-aCp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="s4D-Jj-DBR"/>
+                    <constraint firstItem="Gq4-LM-T7l" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="vCj-5w-4UU"/>
+                    <constraint firstItem="uIU-hH-6wL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vYD-01-tsq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="iconImageView" destination="Gp7-37-aCp" id="5za-FC-jiw"/>
+                <outlet property="titleLabel" destination="uIU-hH-6wL" id="a9d-tN-ORP"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="26.450892857142858"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="detail_facebook" width="26" height="26"/>
+        <image name="detail_sep_line" width="340" height="0.5"/>
+    </resources>
+</document>

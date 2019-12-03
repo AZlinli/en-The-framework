@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYDateView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAv-C8-5wF">
+                    <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xB9-5h-7Va">
+                    <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                    <date key="date" timeIntervalSinceReferenceDate="-648419043.62636566">
+                        <!--1980-06-15 03:35:56 +0000-->
+                    </date>
+                    <date key="minimumDate" timeIntervalSinceReferenceDate="-3187256743">
+                        <!--1900-01-01 10:54:17 +0000-->
+                    </date>
+                </datePicker>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6uM-IF-XVf">
+                    <rect key="frame" x="0.0" y="421" width="375" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9A-XH-zFO">
+                            <rect key="frame" x="322" y="0.0" width="37" height="30"/>
+                            <state key="normal" title="Done"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-q1-5xO">
+                            <rect key="frame" x="16" y="0.0" width="48" height="30"/>
+                            <state key="normal" title="Cancel"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Jfh-q1-5xO" firstAttribute="leading" secondItem="6uM-IF-XVf" secondAttribute="leading" constant="16" id="BIp-6s-FJS"/>
+                        <constraint firstAttribute="bottom" secondItem="L9A-XH-zFO" secondAttribute="bottom" id="GFl-um-Wh7"/>
+                        <constraint firstItem="L9A-XH-zFO" firstAttribute="centerY" secondItem="Jfh-q1-5xO" secondAttribute="centerY" id="Q8n-rW-0Kc"/>
+                        <constraint firstItem="L9A-XH-zFO" firstAttribute="top" secondItem="6uM-IF-XVf" secondAttribute="top" id="Qxo-3K-neh"/>
+                        <constraint firstAttribute="trailing" secondItem="L9A-XH-zFO" secondAttribute="trailing" constant="16" id="v8a-6E-4Tp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="bottom" secondItem="xAv-C8-5wF" secondAttribute="bottom" id="3fb-dG-Crv"/>
+                <constraint firstItem="6uM-IF-XVf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3yO-nh-bcx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6uM-IF-XVf" secondAttribute="trailing" id="5aZ-aG-otp"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="84K-G7-hmR"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="trailing" secondItem="xAv-C8-5wF" secondAttribute="trailing" id="Ld7-8g-6Yf"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="top" secondItem="xAv-C8-5wF" secondAttribute="top" id="M19-xa-byd"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="top" secondItem="6uM-IF-XVf" secondAttribute="bottom" id="Phd-dn-I4X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xB9-5h-7Va" secondAttribute="bottom" id="Uwa-dR-ep7"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="leading" secondItem="xAv-C8-5wF" secondAttribute="leading" id="g9O-JM-S0j"/>
+                <constraint firstItem="xB9-5h-7Va" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uBH-Wl-irp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="affirmButton" destination="L9A-XH-zFO" id="CRN-bN-V3t"/>
+                <outlet property="cancelButton" destination="Jfh-q1-5xO" id="z9D-jx-cca"/>
+                <outlet property="datePicker" destination="xB9-5h-7Va" id="2CB-qZ-OEq"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="106.59670164917542"/>
+        </view>
+    </objects>
+</document>

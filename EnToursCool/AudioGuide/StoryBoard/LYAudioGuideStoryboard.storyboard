@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Be5-yl-SvX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Audio Guide View Controller-->
+        <scene sceneID="2iz-d5-wrI">
+            <objects>
+                <viewController storyboardIdentifier="LYAudioGuideViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NSX-Cx-rie" customClass="LYAudioGuideViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fq6-7s-eKE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xcv-ad-cQb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Hu-hq-TWx">
+                        <nil key="title"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqw-bx-ges" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079.2" y="178.56071964017991"/>
+        </scene>
+        <!--目的地-->
+        <scene sceneID="Z3S-Aa-YBB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Be5-yl-SvX" customClass="GANavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="目的地" id="fp2-hj-cCs"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gK0-zC-3qe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NSX-Cx-rie" kind="relationship" relationship="rootViewController" id="Zc8-fT-NG2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9E-6Q-ZzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="178.56071964017991"/>
+        </scene>
+    </scenes>
+</document>

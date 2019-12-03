@@ -1,0 +1,6 @@
+framework module Pods_EnToursCool {
+  umbrella header "Pods-EnToursCool-umbrella.h"
+
+  export *
+  module * { export * }
+}

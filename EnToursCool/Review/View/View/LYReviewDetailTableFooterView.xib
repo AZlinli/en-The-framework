@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYReviewDetailTableFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="241"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R7M-Le-GQV">
+                    <rect key="frame" x="0.0" y="36" width="436" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="STk-jc-Ahx"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Was this helpful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxT-tR-DNH">
+                    <rect key="frame" x="157.5" y="64" width="121.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnZ-OQ-sdl">
+                    <rect key="frame" x="198" y="121" width="40" height="50"/>
+                    <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="PHK-Jq-FXX"/>
+                        <constraint firstAttribute="height" constant="50" id="ijq-TY-c3T"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="goodButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="qMA-uc-ZbL"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XMT-qY-dJr">
+                    <rect key="frame" x="71" y="146" width="240" height="1"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ZIC-xS-R8C"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vxT-tR-DNH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="5Kg-db-5E2"/>
+                <constraint firstItem="XMT-qY-dJr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="71" id="Pb8-4d-kmA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="XMT-qY-dJr" secondAttribute="bottom" constant="60" id="Rjg-eK-Ag7"/>
+                <constraint firstItem="NnZ-OQ-sdl" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="YdR-hC-ELD"/>
+                <constraint firstItem="R7M-Le-GQV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eLh-3z-BGO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="XMT-qY-dJr" secondAttribute="trailing" constant="125" id="jUB-sZ-Yhl"/>
+                <constraint firstItem="vxT-tR-DNH" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="nku-mo-ENr"/>
+                <constraint firstAttribute="trailing" secondItem="R7M-Le-GQV" secondAttribute="trailing" id="ubl-5a-nZr"/>
+                <constraint firstItem="R7M-Le-GQV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="36" id="v74-vv-nop"/>
+                <constraint firstItem="NnZ-OQ-sdl" firstAttribute="top" secondItem="vxT-tR-DNH" secondAttribute="bottom" constant="36" id="v8U-dN-mYu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="goodButton" destination="NnZ-OQ-sdl" id="Kud-rY-FGJ"/>
+                <outlet property="lineView" destination="R7M-Le-GQV" id="aT4-wA-x4G"/>
+                <outlet property="titleLabel" destination="vxT-tR-DNH" id="aQQ-yG-voF"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="275"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="340" id="KGk-i7-Jjw" customClass="LYReviewDetailListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="340"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="340"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w4c-1z-HCK">
+                        <rect key="frame" x="16" y="20" width="32" height="32"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="OKt-Z0-aHg"/>
+                            <constraint firstAttribute="width" constant="32" id="cFf-9e-I1U"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Walter Hill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaZ-j9-iTi">
+                        <rect key="frame" x="71" y="25.5" width="77.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jul 12,2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QG-4S-UmP">
+                        <rect key="frame" x="292.5" y="61" width="86.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFD-Z8-Myu">
+                        <rect key="frame" x="16" y="89" width="363" height="81.5"/>
+                        <string key="text">Niagara Falls is something everyone must see in their lifetime. Mesmerizing by day and breathtaking at night when the LED lights constantly changing...Niagara Falls is something everyone must see in their lifetime. Mesmerizing by day and breathtaking at night when the LED lights constantly changing...</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9xr-K9-Fle">
+                        <rect key="frame" x="16" y="190.5" width="363" height="133.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wNx-ec-Ahw">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwm-lA-FQe">
+                        <rect key="frame" x="0.0" y="339" width="395" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="g6v-4w-Pjc"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWb-HU-xVb">
+                        <rect key="frame" x="16" y="65" width="60" height="20"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="dMT-8g-P21"/>
+                            <constraint firstAttribute="width" constant="60" id="oAt-eK-jkB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QWb-HU-xVb" firstAttribute="top" secondItem="w4c-1z-HCK" secondAttribute="bottom" constant="13" id="1EZ-Ha-O4S"/>
+                    <constraint firstItem="9xr-K9-Fle" firstAttribute="leading" secondItem="TFD-Z8-Myu" secondAttribute="leading" id="1u0-eJ-25s"/>
+                    <constraint firstItem="0QG-4S-UmP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="61" id="2Jr-VE-Wjp"/>
+                    <constraint firstItem="TFD-Z8-Myu" firstAttribute="top" secondItem="0QG-4S-UmP" secondAttribute="bottom" constant="7" id="3JH-4x-cx1"/>
+                    <constraint firstItem="9xr-K9-Fle" firstAttribute="top" secondItem="TFD-Z8-Myu" secondAttribute="bottom" constant="20" id="3hf-KZ-ZP3"/>
+                    <constraint firstItem="QWb-HU-xVb" firstAttribute="leading" secondItem="w4c-1z-HCK" secondAttribute="leading" id="7v5-e4-5XM"/>
+                    <constraint firstAttribute="trailing" secondItem="0QG-4S-UmP" secondAttribute="trailing" constant="16" id="Er2-cj-DCD"/>
+                    <constraint firstAttribute="bottom" secondItem="9xr-K9-Fle" secondAttribute="bottom" constant="16" id="GFq-LN-MkP"/>
+                    <constraint firstItem="DaZ-j9-iTi" firstAttribute="leading" secondItem="w4c-1z-HCK" secondAttribute="trailing" constant="23" id="Izo-bI-ADd"/>
+                    <constraint firstItem="DaZ-j9-iTi" firstAttribute="centerY" secondItem="w4c-1z-HCK" secondAttribute="centerY" id="KPM-IB-1yl"/>
+                    <constraint firstAttribute="bottom" secondItem="zwm-lA-FQe" secondAttribute="bottom" id="NtZ-pf-ee4"/>
+                    <constraint firstItem="TFD-Z8-Myu" firstAttribute="leading" secondItem="w4c-1z-HCK" secondAttribute="leading" id="Nvg-ci-7ab"/>
+                    <constraint firstAttribute="trailing" secondItem="TFD-Z8-Myu" secondAttribute="trailing" constant="16" id="QmG-Ad-KlO"/>
+                    <constraint firstItem="w4c-1z-HCK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Uf4-0O-H8i"/>
+                    <constraint firstItem="zwm-lA-FQe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YJs-yP-Bxj"/>
+                    <constraint firstAttribute="trailing" secondItem="9xr-K9-Fle" secondAttribute="trailing" constant="16" id="bzy-fX-KAO"/>
+                    <constraint firstAttribute="trailing" secondItem="zwm-lA-FQe" secondAttribute="trailing" id="eDA-ap-zXR"/>
+                    <constraint firstItem="w4c-1z-HCK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="jeF-DU-g7R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="headerImageView" destination="w4c-1z-HCK" id="i4z-N2-yvJ"/>
+                <outlet property="imageCollectonView" destination="9xr-K9-Fle" id="lwv-Uz-vr4"/>
+                <outlet property="lineView" destination="zwm-lA-FQe" id="WYw-It-Nw2"/>
+                <outlet property="nameLabel" destination="DaZ-j9-iTi" id="1x7-Sy-oF8"/>
+                <outlet property="starContentView" destination="QWb-HU-xVb" id="Lp8-Nb-JUi"/>
+                <outlet property="textContentLabel" destination="TFD-Z8-Myu" id="qTF-lL-uS7"/>
+                <outlet property="timeLabel" destination="0QG-4S-UmP" id="Qs7-mK-P9W"/>
+            </connections>
+            <point key="canvasLocation" x="197.82608695652175" y="89.0625"/>
+        </tableViewCell>
+    </objects>
+</document>

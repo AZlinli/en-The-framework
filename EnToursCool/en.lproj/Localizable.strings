@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  EnToursCool
+
+  Created by 稀饭旅行 on 2019/11/11.
+  Copyright © 2019 稀饭旅行. All rights reserved.
+*/
+
+"Home_Tab_Bar_Title" = "Explore";
+"Audio_Guide_Tab_Bar_Title" = "Contact";
+"Cart_Tab_Bar_Title" = "Cart";
+"Account_Tab_Bar_Title" = "Account";
+
+"Home_Search_PlaceHolder" = "Search for destinations,tours";
+
+
+"Share_Title" = "Share";
+"Share_Copy_Link" = "Copy Link";
+"LY_Successful_Copy_Title" = "Copy success";
+
+
+"Search_Trending_Destinations" = "Trending destinations";
+"Search_Recent_Searches" = "Recent searches";
+"Search_Button" = "Search";
+"Search_Vacation_Packages" = "Vacation Packages";
+"Search_Day_Trips_&_Things_to_Do" = "Day Trips & Things to Do";
+
+"Login_Tips" = "Log in to Tripscool";
+"Sign_Up_Tips" = "Sign Up";
+
+"HUD_Net_Working_Error" = "Net Working Error";

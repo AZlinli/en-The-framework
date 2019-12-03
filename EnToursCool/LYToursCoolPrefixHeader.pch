@@ -1,0 +1,84 @@
+//
+//  LYToursCoolPrefixHeader.pch
+//  ToursCool
+//
+//  Created by tourscool on 10/23/18.
+//  Copyright © 2018 tourscool. All rights reserved.
+//
+
+#ifndef LYToursCoolPrefixHeader_pch
+#define LYToursCoolPrefixHeader_pch
+    #ifdef __OBJC__
+
+        #import <UIKit/UIKit.h>
+        #import <Foundation/Foundation.h>
+        #import <MJExtension/MJExtension.h>
+        #import <ReactiveObjC/ReactiveObjC.h>
+        #import <MJRefresh/MJRefresh.h>
+
+        #import "UIView+Data.h"
+        #import "UIFont+LYTools.h"
+        #import "UIColor+PXColors.h"
+        #import "UIViewController+Data.h"
+        #import "UIView+Extension.h"
+
+        #import "AppDelegate.h"
+        #import "LYBottomAligningTextLabel.h"
+
+        #import "LYToursCoolNotificationHeader.h"
+        #import "GANavigationViewController.h"
+        #import "UINavigationBar+Awesome.h"
+        #import "LYToursCoolAllUserdefaultsKeyHeader.h"
+        #import "GAActionSheet.h"
+
+        #import "LYRouterManager.h"
+        #import "LYLanguageManager.h"
+        #import "LYAnalyticsServiceManager.h"
+        #import "LYTourscoolAPPStyleManager.h"
+        #import "MacroConfig.h"
+
+        #import "RZColorful.h"
+        #import "UIView+XKCornerRadius.h"
+        #import "UIView+LYHUD.h"
+        #import <Masonry.h>
+        #define FMFILE NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
+
+        #define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+        #define kWindowRootViewController [[[[UIApplication sharedApplication] delegate] window] rootViewController]
+        #define kAPPDelegate  ((AppDelegate*)[UIApplication sharedApplication].delegate)
+
+        #define PayClientType @"tourscool_en"
+
+//        #define kReusableCellID(CellClassName) [NSString stringWithFormat:@"%@ID",CellClassName]
+
+        #define kScreenWidth [UIScreen mainScreen].bounds.size.width
+        #define kScreenHeight [UIScreen mainScreen].bounds.size.height
+        #define kScreenHeightScale [UIScreen mainScreen].bounds.size.height/667.f
+        #define kScreenHeightiPhonexScale [UIScreen mainScreen].bounds.size.height/812.f
+        #define kScreenWidthScale [UIScreen mainScreen].bounds.size.width/375.f
+        // 状态栏的高度
+        #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+        // 导航栏的高度
+        #define kNavBarHeight 44.0
+        // 安全区域到顶部距离
+        #define SafeAreaTopHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20 ? (88) : (64))
+        // iphoneX-SafeArea的高度
+        #define kSafeAreaHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?34:0)
+        // 分栏+iphoneX-SafeArea的高度
+        #define kTabBarHeight (49+kSafeAreaHeight)
+        // 导航栏+状态栏的高度
+        #define kTopHeight (kStatusBarHeight + 44.0)
+        #define LY_HTTP_Version_1(path) [NSString stringWithFormat:@"api/tour/v1/%@", path]
+        #define LY_HTTP_Version_1_2(path) [NSString stringWithFormat:@"api/tour/v1.2/%@", path]
+
+        #define kCustomerServiceTelephone @"https://tb.53kf.com/code/app/10181581/6?device=ios&header=none"
+        #define kCurrentToursCoolAppID @"1449120712"
+
+        #ifdef DEBUG
+            #define LYNSLog(format, ...) NSLog(format, ## __VA_ARGS__)
+        #else
+            #define LYNSLog(format, ...)
+        #endif
+
+    #endif
+#endif

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="LYRouteTextAndImageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="427" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mff-gm-64C">
+                        <rect key="frame" x="37" y="0.0" width="1" height="7"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="99l-qj-cLQ"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9AM-jT-uxU">
+                        <rect key="frame" x="29" y="7" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="mkA-gT-D3K"/>
+                            <constraint firstAttribute="height" constant="17" id="pq7-o6-RG0"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGE-fF-hJL">
+                        <rect key="frame" x="37" y="24" width="1" height="226"/>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Oim-PG-GVS"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Denver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyL-j2-fAC">
+                        <rect key="frame" x="58" y="5" width="353" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AzC-Mo-VGs">
+                        <rect key="frame" x="58" y="36" width="325" height="110"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="Ymr-7v-kqE"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="P8C-8y-K9c">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0e-S1-USA">
+                        <rect key="frame" x="58" y="156" width="330" height="84"/>
+                        <string key="text">The Crazy Horse Memorial is a mountain monument under construction on privately held land in the Black Hills. The memorial was commissioned by Henry Standing Bear, a Lakota elder, to be sculpted by 
+See more
+</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iGE-fF-hJL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="37" id="2NO-Wu-fLT"/>
+                    <constraint firstAttribute="bottom" secondItem="iGE-fF-hJL" secondAttribute="bottom" id="95o-OW-lkk"/>
+                    <constraint firstAttribute="trailing" secondItem="AzC-Mo-VGs" secondAttribute="trailing" constant="44" id="Edj-of-SB3"/>
+                    <constraint firstItem="9AM-jT-uxU" firstAttribute="centerX" secondItem="iGE-fF-hJL" secondAttribute="centerX" id="EmN-6p-eHh"/>
+                    <constraint firstItem="AzC-Mo-VGs" firstAttribute="top" secondItem="MyL-j2-fAC" secondAttribute="bottom" constant="10" id="F2k-hf-Bmr"/>
+                    <constraint firstItem="iGE-fF-hJL" firstAttribute="top" secondItem="9AM-jT-uxU" secondAttribute="bottom" id="GjZ-9d-C8N"/>
+                    <constraint firstItem="MyL-j2-fAC" firstAttribute="centerY" secondItem="9AM-jT-uxU" secondAttribute="centerY" id="MeQ-4F-xgx"/>
+                    <constraint firstItem="Mff-gm-64C" firstAttribute="leading" secondItem="iGE-fF-hJL" secondAttribute="leading" id="NJc-AE-Tcv"/>
+                    <constraint firstAttribute="trailing" secondItem="C0e-S1-USA" secondAttribute="trailing" constant="39" id="Ooq-g9-0s4"/>
+                    <constraint firstItem="9AM-jT-uxU" firstAttribute="top" secondItem="Mff-gm-64C" secondAttribute="bottom" id="OxA-0u-mKB"/>
+                    <constraint firstAttribute="bottom" secondItem="C0e-S1-USA" secondAttribute="bottom" constant="10" id="Rk5-CG-Zr0"/>
+                    <constraint firstItem="Mff-gm-64C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Zhl-1c-lfl"/>
+                    <constraint firstAttribute="trailing" secondItem="MyL-j2-fAC" secondAttribute="trailing" constant="16" id="dkF-Lm-I3B"/>
+                    <constraint firstItem="9AM-jT-uxU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="eJr-4n-WjN"/>
+                    <constraint firstItem="AzC-Mo-VGs" firstAttribute="leading" secondItem="iGE-fF-hJL" secondAttribute="trailing" constant="20" id="eZQ-FO-jRu"/>
+                    <constraint firstItem="MyL-j2-fAC" firstAttribute="leading" secondItem="9AM-jT-uxU" secondAttribute="trailing" constant="12" id="j5E-15-rrJ"/>
+                    <constraint firstItem="C0e-S1-USA" firstAttribute="leading" secondItem="AzC-Mo-VGs" secondAttribute="leading" id="k2g-Tx-G1O"/>
+                    <constraint firstItem="C0e-S1-USA" firstAttribute="top" secondItem="AzC-Mo-VGs" secondAttribute="bottom" constant="10" id="zzs-mW-rUp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="botImageView" destination="9AM-jT-uxU" id="OUd-Po-5DB"/>
+                <outlet property="imageCollectView" destination="AzC-Mo-VGs" id="B1d-QI-Bkh"/>
+                <outlet property="lineView" destination="iGE-fF-hJL" id="LKi-GL-hCx"/>
+                <outlet property="textContentLabel" destination="C0e-S1-USA" id="sSO-0V-lMm"/>
+                <outlet property="titleLabel" destination="MyL-j2-fAC" id="ihq-gm-bCO"/>
+                <outlet property="topLineView" destination="Mff-gm-64C" id="lDo-dj-G4i"/>
+            </connections>
+            <point key="canvasLocation" x="209.42028985507247" y="203.57142857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

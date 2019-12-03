@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="706" id="KGk-i7-Jjw" customClass="LYOrderDetailTravelPackageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="464" height="706"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="464" height="706"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel Package" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9Q-ZR-DqR">
+                        <rect key="frame" x="16" y="20" width="116" height="18"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqP-HD-gAl">
+                        <rect key="frame" x="418.5" y="24.5" width="29.5" height="13.5"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ip-Jf-buG">
+                        <rect key="frame" x="16" y="54" width="432" height="605"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n58-Re-8m1">
+                                <rect key="frame" x="10" y="20" width="412" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.098039215690000001" green="0.6588235294" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-Mt-4c6">
+                                <rect key="frame" x="10" y="79" width="70.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2444" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzL-2P-wQo">
+                                <rect key="frame" x="85.5" y="79" width="31.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeV-HR-XvI">
+                                <rect key="frame" x="10" y="115" width="33.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jul 12,2019-Jul 20,2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0h-Mm-d1p">
+                                <rect key="frame" x="48.5" y="115" width="149.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value-added services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RB-Q1-P7d">
+                                <rect key="frame" x="10" y="151" width="134" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proceed to Hatley Castle. Discover " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnq-gc-8mr">
+                                <rect key="frame" x="10" y="175" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traveler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71c-8U-nm1">
+                                <rect key="frame" x="10" y="211" width="51" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traveler 1：Lucy Laolunse " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GJ-ng-QH2">
+                                <rect key="frame" x="10" y="235" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJ1-Au-cjw">
+                                <rect key="frame" x="10" y="271" width="48.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yG5-Mz-h2S">
+                                <rect key="frame" x="10" y="295" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone: 1-123456" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asm-cv-1Z0">
+                                <rect key="frame" x="10" y="313" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: 1317410444@qq.com" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8s-na-8un">
+                                <rect key="frame" x="10" y="331" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrival flight information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSk-K9-xZK">
+                                <rect key="frame" x="10" y="367" width="146.5" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ee-v5-TvS">
+                                <rect key="frame" x="10" y="391" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgn-d3-OPr">
+                                <rect key="frame" x="10" y="409" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2L-nu-oEc">
+                                <rect key="frame" x="10" y="427" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jz3-hW-9ja">
+                                <rect key="frame" x="10" y="445" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Departure flight information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5S-eU-bdE">
+                                <rect key="frame" x="10" y="481" width="169" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMR-2y-gak">
+                                <rect key="frame" x="10" y="505" width="412" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZT-Uz-ejn">
+                                <rect key="frame" x="10" y="523" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmE-Lg-dR9">
+                                <rect key="frame" x="10" y="541" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: liu shuoshuo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgJ-ez-CRn">
+                                <rect key="frame" x="10" y="559" width="124" height="16"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z0h-Mm-d1p" firstAttribute="leading" secondItem="IeV-HR-XvI" secondAttribute="trailing" constant="5" id="0Ki-g3-GFd"/>
+                            <constraint firstItem="Vnq-gc-8mr" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="15N-Qa-arR"/>
+                            <constraint firstItem="asm-cv-1Z0" firstAttribute="top" secondItem="yG5-Mz-h2S" secondAttribute="bottom" constant="2" id="1Av-YT-Ata"/>
+                            <constraint firstItem="yG5-Mz-h2S" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="2Ba-xk-SpM"/>
+                            <constraint firstItem="xZT-Uz-ejn" firstAttribute="top" secondItem="UMR-2y-gak" secondAttribute="bottom" constant="2" id="2pm-3n-YNN"/>
+                            <constraint firstAttribute="trailing" secondItem="Vnq-gc-8mr" secondAttribute="trailing" constant="10" id="4qa-h3-cZy"/>
+                            <constraint firstItem="k5S-eU-bdE" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="6q9-WR-Osc"/>
+                            <constraint firstItem="Jz3-hW-9ja" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="79o-3q-T0g"/>
+                            <constraint firstItem="g1j-Mt-4c6" firstAttribute="top" secondItem="n58-Re-8m1" secondAttribute="bottom" constant="18" id="BIz-ph-lit"/>
+                            <constraint firstItem="0ee-v5-TvS" firstAttribute="top" secondItem="MSk-K9-xZK" secondAttribute="bottom" constant="8" id="Cb3-J6-911"/>
+                            <constraint firstItem="4GJ-ng-QH2" firstAttribute="top" secondItem="71c-8U-nm1" secondAttribute="bottom" constant="8" id="DBH-Fd-qaZ"/>
+                            <constraint firstItem="MSk-K9-xZK" firstAttribute="top" secondItem="T8s-na-8un" secondAttribute="bottom" constant="20" id="Dsw-Rr-V3z"/>
+                            <constraint firstAttribute="trailing" secondItem="asm-cv-1Z0" secondAttribute="trailing" constant="10" id="F0P-Lc-GO3"/>
+                            <constraint firstItem="2RB-Q1-P7d" firstAttribute="top" secondItem="IeV-HR-XvI" secondAttribute="bottom" constant="20" id="FVF-Ur-BX0"/>
+                            <constraint firstItem="iJ1-Au-cjw" firstAttribute="top" secondItem="4GJ-ng-QH2" secondAttribute="bottom" constant="20" id="IMN-hv-ZH7"/>
+                            <constraint firstItem="yG5-Mz-h2S" firstAttribute="top" secondItem="iJ1-Au-cjw" secondAttribute="bottom" constant="8" id="JGq-eA-s6p"/>
+                            <constraint firstItem="T2L-nu-oEc" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="KGU-2G-t2q"/>
+                            <constraint firstItem="n58-Re-8m1" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="Lm0-bB-Do7"/>
+                            <constraint firstItem="Z0h-Mm-d1p" firstAttribute="bottom" secondItem="IeV-HR-XvI" secondAttribute="bottom" id="Lza-zh-6Ow"/>
+                            <constraint firstItem="IeV-HR-XvI" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="Nwd-9X-I5I"/>
+                            <constraint firstItem="xZT-Uz-ejn" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="OOZ-bg-A9F"/>
+                            <constraint firstAttribute="trailing" secondItem="T8s-na-8un" secondAttribute="trailing" constant="10" id="Sfl-9f-c4R"/>
+                            <constraint firstItem="VgJ-ez-CRn" firstAttribute="top" secondItem="qmE-Lg-dR9" secondAttribute="bottom" constant="2" id="VgC-ij-Bz1"/>
+                            <constraint firstItem="4GJ-ng-QH2" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="W7P-qs-fqK"/>
+                            <constraint firstItem="T2L-nu-oEc" firstAttribute="top" secondItem="hgn-d3-OPr" secondAttribute="bottom" constant="2" id="XO9-Gv-N8i"/>
+                            <constraint firstItem="UMR-2y-gak" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="XaR-F8-qBu"/>
+                            <constraint firstItem="UMR-2y-gak" firstAttribute="top" secondItem="k5S-eU-bdE" secondAttribute="bottom" constant="8" id="Y47-Lg-uu4"/>
+                            <constraint firstItem="g1j-Mt-4c6" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="Yd7-t1-be6"/>
+                            <constraint firstItem="0ee-v5-TvS" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="aXD-zp-hEF"/>
+                            <constraint firstAttribute="trailing" secondItem="4GJ-ng-QH2" secondAttribute="trailing" constant="10" id="bXW-Cc-prV"/>
+                            <constraint firstAttribute="trailing" secondItem="0ee-v5-TvS" secondAttribute="trailing" constant="10" id="bqw-Gb-k7a"/>
+                            <constraint firstItem="71c-8U-nm1" firstAttribute="top" secondItem="IeV-HR-XvI" secondAttribute="bottom" priority="20" constant="20" id="cMv-2v-jBK"/>
+                            <constraint firstItem="VgJ-ez-CRn" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="cb4-nv-QjF"/>
+                            <constraint firstItem="T8s-na-8un" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="d5v-ub-KYo"/>
+                            <constraint firstItem="Vnq-gc-8mr" firstAttribute="top" secondItem="2RB-Q1-P7d" secondAttribute="bottom" constant="8" id="dIo-VN-B72"/>
+                            <constraint firstAttribute="trailing" secondItem="n58-Re-8m1" secondAttribute="trailing" constant="10" id="dNk-oH-dZB"/>
+                            <constraint firstItem="2RB-Q1-P7d" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="duw-XP-cWJ"/>
+                            <constraint firstItem="MSk-K9-xZK" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="iIb-oc-oVE"/>
+                            <constraint firstAttribute="trailing" secondItem="UMR-2y-gak" secondAttribute="trailing" constant="10" id="jZV-w1-Nnp"/>
+                            <constraint firstItem="71c-8U-nm1" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="lJK-0P-0P5"/>
+                            <constraint firstItem="n58-Re-8m1" firstAttribute="top" secondItem="5Ip-Jf-buG" secondAttribute="top" constant="20" id="mhZ-X2-rgp"/>
+                            <constraint firstItem="hgn-d3-OPr" firstAttribute="top" secondItem="0ee-v5-TvS" secondAttribute="bottom" constant="2" id="nCI-Rc-HMS"/>
+                            <constraint firstItem="hgn-d3-OPr" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="ogu-97-Erb"/>
+                            <constraint firstAttribute="trailing" secondItem="yG5-Mz-h2S" secondAttribute="trailing" constant="10" id="ovF-8u-lqp"/>
+                            <constraint firstItem="k5S-eU-bdE" firstAttribute="top" secondItem="Jz3-hW-9ja" secondAttribute="bottom" constant="20" id="pgW-Hu-Wsj"/>
+                            <constraint firstItem="iJ1-Au-cjw" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="qFJ-aM-M7e"/>
+                            <constraint firstItem="71c-8U-nm1" firstAttribute="top" secondItem="Vnq-gc-8mr" secondAttribute="bottom" constant="20" id="r6p-uu-xTb"/>
+                            <constraint firstItem="Jz3-hW-9ja" firstAttribute="top" secondItem="T2L-nu-oEc" secondAttribute="bottom" constant="2" id="rfF-am-xRP"/>
+                            <constraint firstItem="IeV-HR-XvI" firstAttribute="top" secondItem="g1j-Mt-4c6" secondAttribute="bottom" constant="20" id="snd-3I-Wll"/>
+                            <constraint firstItem="nzL-2P-wQo" firstAttribute="bottom" secondItem="g1j-Mt-4c6" secondAttribute="bottom" id="ug2-mN-mqt"/>
+                            <constraint firstItem="asm-cv-1Z0" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="vbk-j9-qIP"/>
+                            <constraint firstItem="T8s-na-8un" firstAttribute="top" secondItem="asm-cv-1Z0" secondAttribute="bottom" constant="2" id="xUA-DK-2oF"/>
+                            <constraint firstItem="qmE-Lg-dR9" firstAttribute="leading" secondItem="5Ip-Jf-buG" secondAttribute="leading" constant="10" id="xm1-ih-p4u"/>
+                            <constraint firstItem="qmE-Lg-dR9" firstAttribute="top" secondItem="xZT-Uz-ejn" secondAttribute="bottom" constant="2" id="xwt-6K-v3N"/>
+                            <constraint firstItem="nzL-2P-wQo" firstAttribute="leading" secondItem="g1j-Mt-4c6" secondAttribute="trailing" constant="5" id="yfd-aK-dr8"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cqP-HD-gAl" firstAttribute="bottom" secondItem="a9Q-ZR-DqR" secondAttribute="bottom" id="7Fe-Xz-9oD"/>
+                    <constraint firstItem="5Ip-Jf-buG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="BXH-WQ-519"/>
+                    <constraint firstAttribute="trailing" secondItem="5Ip-Jf-buG" secondAttribute="trailing" constant="16" id="JNK-Mu-EHl"/>
+                    <constraint firstItem="5Ip-Jf-buG" firstAttribute="top" secondItem="a9Q-ZR-DqR" secondAttribute="bottom" constant="16" id="MPr-py-VCy"/>
+                    <constraint firstItem="a9Q-ZR-DqR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="PMt-hG-B7e"/>
+                    <constraint firstItem="a9Q-ZR-DqR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="SYL-OE-mEk"/>
+                    <constraint firstAttribute="trailing" secondItem="cqP-HD-gAl" secondAttribute="trailing" constant="16" id="ZJX-8V-eW1"/>
+                    <constraint firstAttribute="bottom" secondItem="5Ip-Jf-buG" secondAttribute="bottom" constant="47" id="ZWa-Ut-9qQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="arrivalAirlineLabel" destination="0ee-v5-TvS" id="XWI-M9-lUe"/>
+                <outlet property="arrivalFlightInfoLabel" destination="MSk-K9-xZK" id="kH7-FZ-4aq"/>
+                <outlet property="arrivalFlightNumLabel" destination="hgn-d3-OPr" id="bhn-Uf-bke"/>
+                <outlet property="arrivalLandingAirportLabel" destination="T2L-nu-oEc" id="xmy-bH-JfD"/>
+                <outlet property="arrivalTimeLabel" destination="Jz3-hW-9ja" id="YcN-W4-AQA"/>
+                <outlet property="contactEmailLabel" destination="T8s-na-8un" id="PHB-O9-Ujo"/>
+                <outlet property="contactNameLabel" destination="yG5-Mz-h2S" id="9MN-nr-GFU"/>
+                <outlet property="contactPhoneLabel" destination="asm-cv-1Z0" id="PSh-67-QmW"/>
+                <outlet property="dateLabel" destination="Z0h-Mm-d1p" id="Xd0-Tv-NQs"/>
+                <outlet property="departureAirlineLabel" destination="UMR-2y-gak" id="S9g-nC-br0"/>
+                <outlet property="departureFlightInfoLabel" destination="k5S-eU-bdE" id="1cf-FI-h1e"/>
+                <outlet property="departureFlightNumberLabel" destination="xZT-Uz-ejn" id="fwQ-eZ-2gn"/>
+                <outlet property="departureLandingAirportLabel" destination="qmE-Lg-dR9" id="wm3-yV-Ksn"/>
+                <outlet property="departureTimeLabel" destination="VgJ-ez-CRn" id="M1r-JC-5B2"/>
+                <outlet property="orderStatusLabel" destination="cqP-HD-gAl" id="gLy-TK-qQd"/>
+                <outlet property="productIDLabel" destination="nzL-2P-wQo" id="OwK-CF-7id"/>
+                <outlet property="productTitleLabel" destination="n58-Re-8m1" id="oIh-OU-IyB"/>
+                <outlet property="travelerLabel" destination="4GJ-ng-QH2" id="Mc7-be-tMo"/>
+                <outlet property="valueAddServicesLabel" destination="Vnq-gc-8mr" id="Uni-SB-rhx"/>
+                <outlet property="valueAddServicesTitleLabel" destination="2RB-Q1-P7d" id="Rfh-GS-BQV"/>
+            </connections>
+            <point key="canvasLocation" x="57.971014492753625" y="199.55357142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
